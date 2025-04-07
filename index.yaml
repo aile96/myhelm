@@ -1,0 +1,94 @@
+apiVersion: v1
+entries:
+  honeypot:
+  - apiVersion: v2
+    appVersion: v0.10.2
+    created: "2025-04-15T12:38:44.045392247+02:00"
+    description: A Helm chart for Kubernetes for an honeypot based on Online Boutique
+      v0.10.2
+    digest: 582d355016aa134a1d2cc5e7b2cd8614f7a776dbc840afec2ddf2a969665036d
+    name: honeypot
+    type: application
+    urls:
+    - https://aile96.github.io/myhelm/honeypot-0.10.2.tgz
+    version: 0.10.2
+  ovn-kubernetes:
+  - annotations:
+      default-values: values-no-ic.yaml
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-04-15T12:38:44.062633578+02:00"
+    dependencies:
+    - name: ovn-ipsec
+      repository: ""
+      tags:
+      - ovn-ipsec
+      version: 1.0.0
+    - name: ovnkube-control-plane
+      repository: ""
+      tags:
+      - ovnkube-control-plane
+      version: 1.0.0
+    - name: ovnkube-db
+      repository: ""
+      tags:
+      - ovnkube-db
+      version: 1.0.0
+    - name: ovnkube-db-raft
+      repository: ""
+      tags:
+      - ovnkube-db-raft
+      version: 1.0.0
+    - name: ovnkube-identity
+      repository: ""
+      tags:
+      - ovnkube-identity
+      version: 1.0.0
+    - name: ovnkube-master
+      repository: ""
+      tags:
+      - ovnkube-master
+      version: 1.0.0
+    - name: ovnkube-node
+      repository: ""
+      tags:
+      - ovnkube-node
+      version: 1.0.0
+    - name: ovnkube-node-dpu
+      repository: ""
+      tags:
+      - ovnkube-node-dpu
+      version: 1.0.0
+    - name: ovnkube-node-dpu-host
+      repository: ""
+      tags:
+      - ovnkube-node-dpu-host
+      version: 1.0.0
+    - name: ovnkube-single-node-zone
+      repository: ""
+      tags:
+      - ovnkube-single-node-zone
+      version: 1.0.0
+    - name: ovnkube-zone-controller
+      repository: ""
+      tags:
+      - ovnkube-zone-controller
+      version: 1.0.0
+    - name: ovs-node
+      repository: ""
+      tags:
+      - ovs-node
+      version: 1.0.0
+    description: Helm chart to deploy ovn-kubernetes cni
+    digest: 59d0a5b2a0232751f293edb3eecb3e3289b843e6b9c2035a1d2ed5a5adc6ef9c
+    home: https://ovn-kubernetes.io/
+    icon: https://www.ovn.org/images/ovn-logo.png
+    name: ovn-kubernetes
+    sources:
+    - https://github.com/ovn-org/ovn-kubernetes
+    - https://github.com/ovn-org/ovn
+    type: application
+    urls:
+    - https://aile96.github.io/myhelm/ovn-kubernetes-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-04-15T12:38:44.041967391+02:00"
