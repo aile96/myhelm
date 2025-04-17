@@ -3,10 +3,10 @@ entries:
   honeypot:
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2025-04-15T19:50:49.860181954+02:00"
+    created: "2025-04-17T15:53:14.669562287+02:00"
     description: A Helm chart for Kubernetes for an honeypot based on Online Boutique
       v0.10.2
-    digest: 703d4a260d820eb93711e9f20bac68441c41277c5342de0ce37ded0801bef75d
+    digest: 2a76387f852ca16f491bb0488acba99077166465ed72e0a2ddab7b91c2d26fcc
     name: honeypot
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: v0.10.2
-    created: "2025-04-15T19:50:49.858797392+02:00"
+    created: "2025-04-17T15:53:14.667732353+02:00"
     description: A Helm chart for Kubernetes for an honeypot based on Online Boutique
       v0.10.2
     digest: e9e96b20d4b6d9a1a931d17ff6e65987595ef6890bcd44e96591ca2b7daf615e
@@ -24,11 +24,9 @@ entries:
     - https://aile96.github.io/myhelm/honeypot-0.10.2.tgz
     version: 0.10.2
   ovn-kubernetes:
-  - annotations:
-      default-values: values-no-ic.yaml
-    apiVersion: v2
+  - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-15T19:50:49.864486034+02:00"
+    created: "2025-04-17T15:53:14.673226413+02:00"
     dependencies:
     - name: ovn-ipsec
       repository: ""
@@ -91,7 +89,7 @@ entries:
       - ovs-node
       version: 1.0.0
     description: Helm chart to deploy ovn-kubernetes cni
-    digest: eb97cb259ce19e95edecdf9da22dcba4b44c1fe688c0193533c451825da869a5
+    digest: 602f94f951f0095ddee0f43d31c1c1693cb9da6040fb1691d9ae22859e8b7069
     home: https://ovn-kubernetes.io/
     icon: https://www.ovn.org/images/ovn-logo.png
     name: ovn-kubernetes
@@ -102,4 +100,4 @@ entries:
     urls:
     - https://aile96.github.io/myhelm/ovn-kubernetes-1.0.0.tgz
     version: 1.0.0
-generated: "2025-04-15T19:50:49.857137755+02:00"
+generated: "2025-04-17T15:53:14.66252619+02:00"
